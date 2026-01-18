@@ -1,0 +1,77 @@
+/* Text Reveal Animations */
+.text-reveal {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.text-reveal .char,
+.text-reveal .word {
+  display: inline-block;
+  transform-origin: bottom center;
+  perspective: 1000px;
+}
+
+.text-reveal .char {
+  margin: 0 0.01em;
+}
+
+.text-reveal .word {
+  margin-right: 0.3em;
+  white-space: nowrap;
+}
+
+/* Fade Slide Animations */
+.fade-slide {
+  width: 100%;
+}
+
+.fade-slide > * {
+  will-change: transform, opacity;
+}
+
+/* Scale Reveal Animations */
+.scale-reveal {
+  width: 100%;
+}
+
+.scale-reveal > * {
+  transform-origin: center;
+  will-change: transform, opacity;
+}
+
+/* Clip Reveal Animations */
+.clip-reveal {
+  overflow: hidden;
+  will-change: clip-path;
+}
+
+/* Advanced Text Reveal */
+.advanced-text-reveal {
+  display: inline-block;
+}
+
+.advanced-text-reveal .char,
+.advanced-text-reveal .word {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+/* Performance optimization */
+.text-reveal,
+.fade-slide,
+.scale-reveal,
+.clip-reveal,
+.advanced-text-reveal {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prevent layout shift */
+.text-reveal .char,
+.text-reveal .word,
+.advanced-text-reveal .char,
+.advanced-text-reveal .word {
+  vertical-align: top;
+}
