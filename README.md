@@ -101,6 +101,7 @@ npm run preview
 - Safari (latest)
 - Edge (latest)
 
-Live Link : lambent-kataifi-3d6c9e.netlify.app
+Live Link : https://lambent-kataifi-3d6c9e.netlify.app
+
 
 
