@@ -280,12 +280,5 @@ The About page demonstrates:
 - Ensure text is a string, not JSX
 - For JSX content, pass as children without wrapping
 
-## Resources
 
-- [GSAP Documentation](https://greensock.com/docs/)
-- [ScrollTrigger Docs](https://greensock.com/docs/v3/Plugins/ScrollTrigger)
-- [GSAP Ease Visualizer](https://greensock.com/ease-visualizer/)
 
-## License
-
-This implementation uses GSAP under their standard license. For commercial projects, please review [GSAP licensing](https://greensock.com/licensing/).
