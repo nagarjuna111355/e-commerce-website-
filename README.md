@@ -101,7 +101,6 @@ npm run preview
 - Safari (latest)
 - Edge (latest)
 
-## License
+Live Link : lambent-kataifi-3d6c9e.netlify.app
 
-This project is open source and available for educational purposes.
 
